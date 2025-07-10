@@ -1,10 +1,35 @@
-#search_bar {
+#search_bar, #image_search_bar {
   //background-color: blue;
   height: 60px;
+  display: flex;
+  //flex: 1;
+  align-items: center;
 }
 input[type="submit"] {
   background-color: green;
   border-radius: 10px;
   height: 40px;
   width: 180px;
+}
+form {
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  display: inline-block;
+  height: 40px;
+  width: 160px;
+  background-color: purple;
+  text-align: center;
+  //border: 2px, solid, black;
+  border-radius:10px;
+  line-height: 40px;
+  //flex: 1;
+}
+a {
+  text-decoration: none;
+  color:gold;
 }

@@ -1,19 +1,20 @@
 <!Doctype html>
 <html lang="en">
   <head>
-    <title>Seach</title>
+    <title>Search Image on Google</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="menu">
-      <div id="search_bar">
+      <div id="image_search_bar">
         <form action="https://www.google.com/search">
           <input type="text" name="q">
-          <input type="submit" value="Google Search">
+          <input type="hidden" name="udm" value="2">
+          <input type="submit" value="Google Image Search">
         </form>
       </div>
       <div class="button">
-        <a  href="image_search.html">Google Image Search</a>
+        <a href="index.html">Return to Google Search</a>
       </div>
     </div>
   </body>
